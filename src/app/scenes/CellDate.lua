@@ -21,6 +21,9 @@ function CellDate:ctor()
 	self.aniMationName = nil
 	
 	self.skill = nil
+	self.action = {}
+	
+--	actionid actionName
 	
 end
 
@@ -28,6 +31,15 @@ end
 function CellDate:IsPic()
     return  (not self.picFileName == false)
 end
+
+function CellDate:getAction(actionId)
+	for key, var in pairs(self.action) do
+        if actionId == var.actionid then
+            return var.actionName
+		end
+	end
+end
+
 
 
 
