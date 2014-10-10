@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="con" path="org.ccdt.ldt.ExecutionEnvironmentContainer/lua/5.1"/>
+	<buildpathentry external="true" kind="lib" path="/Users/SAMSUNG/Documents/quick-3.2rc0/2dx-3.2-api"/>
+	<buildpathentry external="true" kind="lib" path="/Users/SAMSUNG/Documents/quick-3.2rc0/quick-3.0alpha3-api"/>
+</buildpath>

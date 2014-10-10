@@ -1,0 +1,4 @@
+cocos2d: lua_loadChunksFromZIP() - load zip file: /Users/SAMSUNG/Documents/quick-3.2rc0/quick/lib/framework_precompiled/framework_precompiled.zip
+cocos2d: lua_loadChunksFromZIP() - loaded chunks count: 76
+cocos2d: Console: listening on  0.0.0.0 : 6010
+libpng warning: iCCP: known incorrect sRGB profile
