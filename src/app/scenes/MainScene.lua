@@ -63,7 +63,7 @@ function MainScene:addObjects()
 --    self.hero2.animations[1] = {1,1.0,1.33}
 --    self.hero2.animations[2] = {2,1.0,1.33}
 --    self.hero2.animations[3] = {3,1.0,1.33}
-    local start,last = self.hero:getTimes(3)
+    local start,last = self.hero:getTimes(ACT_WIN)
 	
     print("时间是。。"..start.."持续时间"..last)
 	
