@@ -12,6 +12,7 @@ ACT_RUN = 9
 
 
 local Person = import("src/app/scenes/PeroData.lua")
+local ScoreLayer = import("src/app/scenes/ScoreCount.lua")
 
 
 local MainScene = class("MainScene", function()
@@ -32,7 +33,22 @@ function MainScene:ctor()
 --   self:addSliender()
 --      self:createPageView()
 
-        self:addObjects()
+--        self:addObjects()
+
+--        
+
+        
+    self:addScoreLayer()
+
+end
+
+function MainScene:addScoreLayer()
+    local scoreLayer = ScoreLayer.new()
+   
+    
+    local num = scoreLayer:countMonsterScore(2)
+    print("Test num is "..num)
+	
 end
 
 function MainScene:addObjects()
